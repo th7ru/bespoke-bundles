@@ -1,7 +1,7 @@
 // BundlePreview.jsx
 import React from 'react';
 import { BookOpen, Camera, Mail, Package, Sparkles, Box } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '../ui/Card';
 
 const BundlePreview = ({ bundle, mode = 'custom', total }) => {
   const getItemIcon = (itemType) => {

@@ -1,6 +1,6 @@
 // BundleBuilder.jsx
 import React, { useState } from 'react';
-import { Card } from '@/components/ui/card';
+import { Card } from '../ui/Card';
 import { BookOpen, Camera, Mail, Package, Sparkles, Box } from 'lucide-react';
 import PhotoUpload from './PhotoUpload';
 import ItemCustomization from './ItemCustomization';
@@ -17,7 +17,7 @@ const BundleBuilder = ({ mode = 'custom', initialStep = 1 }) => {
     stressBall: { included: mode === 'standard', quantity: 1, design: '' },
     clawClip: { included: true, quantity: 1 } // Always included
   });
-  
+
   const navigate = useNavigate();
 
   const items = [

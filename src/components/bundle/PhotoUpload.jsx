@@ -1,7 +1,7 @@
 // PhotoUpload.jsx
 import React from 'react';
 import { Camera, X, Upload } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/Card';
+import { Card, CardContent } from '../ui/Card.jsx';
 
 const PhotoUpload = ({ bundle, setBundle }) => {
   const handlePhotoUpload = (stripIndex, photoIndex, e) => {

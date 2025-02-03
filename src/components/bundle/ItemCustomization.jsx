@@ -1,6 +1,6 @@
 // ItemCustomization.jsx
 import React from 'react';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '../ui/Card';
 import { BookOpen, Mail, Sparkles } from 'lucide-react';
 
 const ItemCustomization = ({ bundle, setBundle }) => {
